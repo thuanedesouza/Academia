@@ -1,26 +1,16 @@
 <!DOCTYPE html>
 <?php
-
 // php select option value from database
-
 $hostname = "localhost";
 $username = "root";
 $password = "";
 $databaseName = "loginsystem";
-
 // connect to mysql database
-
 $connect = mysqli_connect($hostname, $username, $password, $databaseName);
-
 // mysql select query
 $query = "SELECT * FROM `Trainer`";
-
 // for method 1
-
 $result1 = mysqli_query($connect, $query);
-
-
-
 ?>
 <html>
   <head>
@@ -36,14 +26,14 @@ $result1 = mysqli_query($connect, $query);
         <div class="col-md-3">
             <div class="list-group">
                 <a href="" class="list-group-item active"
-                   >Members</a>
-                <a href="trainer_details.php" class="list-group-item">Member details</a>
-                <a href="package.php" class="list-group-item">Package details</a>
-                <a href="payment.php" class="list-group-item">Payments</a>
+                   >Novos Membros</a>
+                <a href="trainer_details.php" class="list-group-item">Membros - detalhes</a>
+                <a href="package.php" class="list-group-item">Pacotes - detalhes</a>
+                <a href="payment.php" class="list-group-item">Pagamentos</a>
             </div>
             <hr>
             <div class="list-group">
-<a href="trainer.php" class="list-group-item active">Trainer</a>
+<a href="trainer.php" class="list-group-item active">Treinadores</a>
 <a href="trainer.php" class="list-group-item active">Trainer details</a>             <a href="trainer.php" class="list-group-item active">Add new Trainer</a>
          
             </div>      
