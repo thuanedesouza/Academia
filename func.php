@@ -59,7 +59,7 @@ if(isset($_POST['pat_submit']))
                 echo "<script>window.open('admin-panel.php','_self')</script>";
             }
             } 
- function get_patient_details(){
+ function get_client_details(){
     global $con;
     $query="select * from doctorapp";
     $result=mysqli_query($con,$query);

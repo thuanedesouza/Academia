@@ -15,7 +15,7 @@
              <div class="col-md-1">
     <a href="admin-panel.php" class="btn btn-light ">Go Back</a>
              </div>
-             <div class="col-md-3"><h3>Members Details</h3></div>
+             <div class="col-md-3"><h3>Membros</h3></div>
              <div class="col-md-8">
          <form class="form-group" action="trainer_search.php" method="post">
           <div class="row">
@@ -27,15 +27,15 @@
     <table class="table table-hover">
         <thead>
      <tr>
-            <th>First Name</th>
-            <th>Last Name</th>
-         <th>Email id</th>
-         <th>Member ID</th>
-         <th>Trainer ID</th>
+            <th>Primeiro Nome</th>
+            <th>Segundo Nome</th>
+         <th>Email - ID</th>
+         <th>Membro - ID</th>
+         <th>Trainador - ID</th>
         </tr>   
         </thead>
         <tbody>
-          <?php get_patient_details(); ?>
+          <?php get_client_details(); ?>
         </tbody>
     </table>
      </div>

@@ -23,9 +23,9 @@
               <h5>Admin Login</h5><br>
               <form class="form-group" method="POST" action="admin-panel.php">
                 <div class="row">
-                  <div class="col-md-4"><label>Username: </label></div>
+                  <div class="col-md-4"><label>Login: </label></div>
                   <div class="col-md-8"><input type="text" name="username" class="form-control" placeholder="enter username" required/></div><br><br>
-                  <div class="col-md-4"><label>Password: </label></div>
+                  <div class="col-md-4"><label>Senha: </label></div>
                   <div class="col-md-8"><input type="password" class="form-control" name="password" placeholder="enter password" required/></div><br><br><br>
                 </div>
                 <center><input type="submit" id="inputbtn" name="login_submit" value="Login" class="btn btn-primary"></center>

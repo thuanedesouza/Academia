@@ -2,7 +2,7 @@
 <?php include("func.php");?>
 <html>
 <head>
-	<title>Members details</title>
+	<title>Pagamentos</title>
 	 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
 </head>
 <body>
@@ -26,11 +26,11 @@
     <table class="table table-hover">
         <thead>
      <tr>
-            <th>Payment ID </th>
-            <th>Amount</th>
-            <th>Payment Type</th>
-            <th>Customer ID</th>
-            <th>Customer Name</th>
+            <th>Pagamento - ID </th>
+            <th>Valor</th>
+            <th>Tipo de Pagamento</th>
+            <th>Membro - ID </th>
+            <th>Membro - Nome</th>
          
         </tr>   
         </thead>
@@ -40,20 +40,20 @@
         </tbody>
     </table>
     <div class="card-body" style="background-color:#3498DB;color:FFFFFF;">
-                <h3>Make new Payment</h3>
+                <h3>Novo Pagamento</h3>
                 </div> 
                 <div class="card-body"></div>
                 <form class="form-group" action="func.php" method="post">
-                <label>Payment ID</label>
+                <label>Pagamento ID</label>
 <input type="text" name="Payment_id" class="form-control"><br>
  
-                    <label>Amount</label>
+                    <label>Valor</label>
                     <input type="text" name="Amount" class="form-control"><br>
-                    <label>Customer ID</label>
+                    <label>Membro - ID</label>
                     <input type="text" name="customer_id" class="form-control"><br>
-                    <label>Customer Name</label>
+                    <label>Membro - Name</label>
                     <input type="text" name="customer_name" class="form-control"><br>
-                    <label>Payment Type</label>
+                    <label>Tipo de Pagamento</label>
                     
 <input type="text" name="payment_type" class="form-control"><br> 
 <input type="submit" class="btn btn-primary" name="pay_submit" value="PAY">
