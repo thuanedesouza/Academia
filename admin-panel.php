@@ -43,19 +43,19 @@ $result1 = mysqli_query($connect, $query);
             <div class="card">
                 
      <div class="card-body" style="background-color:#3498DB;color:FFFFFF;">
-                <h3>Register new members</h3>
+                <h3>Registro de novos membros</h3>
                 </div> 
                 <div class="card-body"></div>
                 <form class="form-group" action="func.php" method="post">
-                <label>first name:</label>
+                <label>Primeio Nome:</label>
 <input type="text" name="fname" class="form-control"><br>
-                    <label>last name:</label>
+                    <label>Segundo Nome:</label>
 <input type="text" name="lname" class="form-control"><br> 
  <label>email</label>
                     <input type="text" name="email" class="form-control"><br>
-                    <label>Member ID</label>
+                    <label>Membro - ID</label>
 <input type="text" name="contact" class="form-control"><br>        
- <label>Trainer </label> 
+ <label>Treinador </label> 
  <select class="form-control" name="docapp">
 
             <?php while($row1 = mysqli_fetch_array($result1)):;?>

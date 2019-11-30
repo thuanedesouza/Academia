@@ -2,7 +2,7 @@
 <?php include("func.php");?>
 <html>
 <head>
-	<title>Members details</title>
+	<title>Treinadores - Detalhes</title>
 	 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
 </head>
 <body>
@@ -15,7 +15,7 @@
              <div class="col-md-1">
     <a href="admin-panel.php" class="btn btn-light ">Go Back</a>
              </div>
-             <div class="col-md-3"><h3> Trainer Information</h3></div>
+             <div class="col-md-3"><h3> Treinadores Informação</h3></div>
              <div class="col-md-8">
          <form class="form-group" action="patient_search.php" method="post">
           <div class="row">
@@ -27,9 +27,9 @@
     <table class="table table-hover">
         <thead>
      <tr>
-            <th>Trainer ID</th>
-            <th>Name</th>
-         <th>Phone</th>
+            <th>Treinador - ID</th>
+            <th>Nome</th>
+         <th>Contato</th>
          
         </tr>   
         </thead>
@@ -38,17 +38,17 @@
         </tbody>
     </table>
     <div class="card-body" style="background-color:#3498DB;color:FFFFFF;">
-                <h3>Register new Trainer</h3>
+                <h3>Registrar novo Treinador</h3>
                 </div> 
                 <div class="card-body"></div>
                 <form class="form-group" action="func.php" method="post">
-                <label>Trainer ID</label>
+                <label>Treinador ID</label>
 <input type="text" name="Trainer_id" class="form-control"><br>
- <label>Name</label>
+ <label>Nome</label>
                     <input type="text" name="Name" class="form-control"><br>
-                    <label>Phone</label>
+                    <label>Contato</label>
 <input type="text" name="phone" class="form-control"><br> 
-<input type="submit" class="btn btn-primary" name="tra_submit" value="Register">
+<input type="submit" class="btn btn-primary" name="tra_submit" value="Registrar">
      </div>
     </div>
     </div>
