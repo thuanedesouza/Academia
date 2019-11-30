@@ -27,7 +27,7 @@ $result1 = mysqli_query($connect, $query);
             <div class="list-group">
                 <a href="" class="list-group-item active"
                    >Novos Membros</a>
-                <a href="trainer_details.php" class="list-group-item">Membros - detalhes</a>
+                <a href="member_details.php" class="list-group-item">Membros - detalhes</a>
                 <a href="package.php" class="list-group-item">Pacotes - detalhes</a>
                 <a href="payment.php" class="list-group-item">Pagamentos</a>
             </div>
