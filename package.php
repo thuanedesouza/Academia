@@ -28,7 +28,7 @@
      <tr>
             <th>Pacotes ID </th>
             <th>Nome dos Pacotes</th>
-         <th>Amounts</th>
+         <th>Preços</th>
          
         </tr>   
         </thead>
