@@ -58,24 +58,25 @@ if(isset($_POST['pat_submit']))
               echo "<script>alert('Payment sucessfull.')</script>";
                 echo "<script>window.open('admin-panel.php','_self')</script>";
             }
+            } 
             if(isset($_POST['avaliacao_submit']))
-                {
-                $Avaliado_id=$row['Avaliado_id'];
-                $costumername=$row ['Package_name'];
-                $QtdeAvaliacoes=$row['QtdeAvaliacoes'];
-                $DataUltima=$row['DataUltima'];
-                $IndiceIMC=$row['IMC'];
-                $porcentagem=$row['PorctgGordura'];
+            {
 
-                $query="insert into Avaliacao(Avaliado_id,Package_name,QtdeAvaliacoes,IMC,PorctgGordura)values
+                $Avaliado_id=$_POST['Avaliado_id'];
+                $costumername=$_POST ['Package_name'];
+                $QtdeAvaliacoes=$_POST['QtdeAvaliacoes'];
+                $DataUltima=$_POST['DataUltima'];
+                $IndiceIMC=$_POST['IMC'];
+                $porcentagem=$_POST['PorctgGordura'];
+                $query="insert into Avaliacao(Avaliado_id,Package_name,QtdeAvaliacoes,DataUltima,IMC,PorctgGordura)values
                 ('$Avaliado_id','$costumername','$QtdeAvaliacoes','$DataUltima','$IndiceIMC', '$porcentagem')";
-                $result=mysqli_query($con,$query);
+                 $result=mysqli_query($con,$query);
                 if($result)
                 {
-                echo "<script>alert('Avaliaçao adicionada.')</script>";
+                  echo "<script>alert('Payment sucessfull.')</script>";
                     echo "<script>window.open('admin-panel.php','_self')</script>";
-                }   
-            } 
+                }
+                } 
  function get_client_details(){
     global $con;
     $query="select * from doctorapp";
