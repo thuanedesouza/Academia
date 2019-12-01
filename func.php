@@ -139,12 +139,13 @@ function get_payment(){
 
     }
 }
+
 function get_avaliacao_details(){
     global $con;
     $query=
     "select * 
             from Avaliacao
-            where
+            inner join AvaliacaoDetalhes on 
             AvaliacaoDetalhes.Avaliado_id= Avaliacao.Avaliado_id";
     $result=mysqli_query($con,$query);
     while ($row=mysqli_fetch_array($result)){
@@ -155,8 +156,6 @@ function get_avaliacao_details(){
     $DataUltima=$row['DataUltima'];
     $IndiceIMC=$row['IMC'];
     $porcentagem=$row['PorctgGordura'];
-
-    
 
       echo "<tr>
           <td>$costumername</td>
