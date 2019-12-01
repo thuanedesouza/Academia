@@ -10,10 +10,10 @@
 
  <div class="container">
 <div class="card">
-     <div class="card-body" style="background-color:#3498DB;color:#ffffff;">
+     <div class="card-body" style="background-color:#636e72;color:#f5f6fa;">
          <div class="row">
              <div class="col-md-1">
-    <a href="admin-panel.php" class="btn btn-light ">Go Back</a>
+             <a href="admin-panel.php" class="btn btn-light ">Voltar</a>
              </div>
              <div class="col-md-3"><h3>Pacotes</h3></div>
              <div class="col-md-8">
@@ -21,7 +21,7 @@
           <div class="row">
               
                  </form></div></div></div>
-     <div class="card-body" style="background-color:#3498DB;color:#ffffff;">
+     <div class="card-body" style="background-color:#636e72;color:#f5f6fa;">
          <div class="card-body">
     <table class="table table-hover">
         <thead>

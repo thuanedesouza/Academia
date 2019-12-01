@@ -6,14 +6,14 @@
 	 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
 </head>
 <body>
-<div class="jumbotron" style="background: url('images/2.jpg') no-repeat;background-size: cover;height: 300px;"></div>	
+<div class="jumbotron" style="background: url('images/2.jpg') no-repeat;background-size: cover;height: 300px;background-color:#636e72;color:#f5f6fa;"></div>	
 
  <div class="container">
 <div class="card">
-     <div class="card-body" style="background-color:#3498DB;color:#ffffff;">
+     <div class="card-body" style="background-color:#636e72;color:#f5f6fa;">
          <div class="row">
              <div class="col-md-1">
-    <a href="admin-panel.php" class="btn btn-light ">Go Back</a>
+             <a href="admin-panel.php" class="btn btn-light ">Voltar</a>
              </div>
              <div class="col-md-3"><h3>Pagamentos</h3></div>
              <div class="col-md-8">
@@ -21,7 +21,7 @@
           <div class="row">
               
                  </form></div></div></div>
-     <div class="card-body" style="background-color:#3498DB;color:#ffffff;">
+     <div class="card-body"style="background-color:#636e72;color:#f5f6fa;">
          <div class="card-body">
     <table class="table table-hover">
         <thead>
@@ -39,7 +39,7 @@
           <?php get_payment(); ?>
         </tbody>
     </table>
-    <div class="card-body" style="background-color:#3498DB;color:FFFFFF;">
+    <div class="card-body" style="background-color:#636e72;color:#f5f6fa;">
                 <h3>Novo Pagamento</h3>
                 </div> 
                 <div class="card-body"></div>
@@ -56,7 +56,7 @@
                     <label>Tipo de Pagamento</label>
                     
 <input type="text" name="payment_type" class="form-control"><br> 
-<input type="submit" class="btn btn-primary" name="pay_submit" value="PAY">
+<input type="submit" class="btn btn-primary" style="background-color:#636e72;color:#f5f6fa;" name="pay_submit" value="PAGO">
      </div>
     </div>
     </div>

@@ -10,10 +10,10 @@
 
  <div class="container">
 <div class="card">
-     <div class="card-body" style="background-color:#3498DB;color:#ffffff;">
+     <div class="card-body"style="background-color:#636e72;color:#f5f6fa;">
          <div class="row">
              <div class="col-md-1">
-    <a href="admin-panel.php" class="btn btn-light ">Go Back</a>
+             <a href="admin-panel.php" class="btn btn-light ">Voltar</a>
              </div>
              <div class="col-md-3"><h3> Avaliações</h3></div>
              <div class="col-md-8">
@@ -22,7 +22,7 @@
    
                          
                  </form></div></div></div>
-     <div class="card-body" style="background-color:#3498DB;color:#ffffff;">
+     <div class="card-body" style="background-color:#636e72;color:#f5f6fa;">
          <div class="card-body">
     <table class="table table-hover">
         <thead>
@@ -40,7 +40,7 @@
           <?php get_avaliacao_details(); ?>
         </tbody>
     </table>
-    <div class="card-body" style="background-color:#3498DB;color:FFFFFF;">
+    <div class="card-body" style="background-color:#636e72;color:#f5f6fa;">
                 <h3>Registrar Nova Avaliação</h3>
                 </div> 
                 <div class="card-body"></div>
@@ -57,7 +57,7 @@
 <label>Porcentagem de Gordura</label>
 <input type="text" name="PorctgGordura" class="form-control"><br> 
 
-<input type="submit" class="btn btn-primary" name="tra_submit" value="Registrar">
+<input type="submit" class="btn btn-primary" style="background-color:#636e72;color:#f5f6fa;" name="avaliacao_submit" value="Registrar">
      </div>
     </div>
     </div>

@@ -13,7 +13,7 @@ if(isset($_POST['patient_search_submit']))
     $result=mysqli_query($con,$query);
     echo "<div class='container-fluid' style='margin-top:50px;'>
     <div class'card'>
-    <div class='card-body'><a href='trainer_details.php' class='btn brn-light'>Go Back</a></div>
+    <div class='card-body'><a href='member_details.php' class='btn brn-light'>Go Back</a></div>
     <img src='images/1.jpg'>
     <table class='table table-hover'>
         <thead>

@@ -130,9 +130,7 @@ INSERT INTO `Avaliacao` (`Avaliado_id`, `QtdeAvaliacoes`, `DataUltima`) VALUES
 ('203', '1', 3/7/2019);
 
 -- --------------------------------------------------------
-- --------------------------------------------------------
 
---
 -- Table structure for table `Package`
 --
 
