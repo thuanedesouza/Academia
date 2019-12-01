@@ -141,7 +141,11 @@ function get_payment(){
 }
 function get_avaliacao_details(){
     global $con;
-    $query="select * from  Avaliacao";
+    $query=
+    "select * 
+            from Avaliacao
+            where
+            AvaliacaoDetalhes.Avaliado_id= Avaliacao.Avaliado_id";
     $result=mysqli_query($con,$query);
     while ($row=mysqli_fetch_array($result)){
        

@@ -31,7 +31,7 @@
      <th>Avaliação - ID</th>
           
          <th>Qtde. de Avaliações </th>
-         <th>Data da Ultima Avaliaçães </th>
+         <th>Data da Ultima Avaliações </th>
          <th>Indice IMC </th>
          <th>Porcentagem </th>
         </tr>   

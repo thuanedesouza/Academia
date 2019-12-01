@@ -204,6 +204,17 @@ ALTER TABLE `Payment`
 ALTER TABLE `Trainer`
   ADD PRIMARY KEY (`Trainer_id`);
 COMMIT;
+-- Indexes for table `Avaliacao`
+--
+ALTER TABLE `Avaliacao`
+  ADD PRIMARY KEY (`Avaliado_id`);
+COMMIT;
+-- Indexes for table `AvaliacaoDetalhes`
+--
+ALTER TABLE `AvaliacaoDetalhes`
+  ADD PRIMARY KEY (`Avaliado_id`);
+COMMIT;
+
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;

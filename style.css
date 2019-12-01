@@ -24,7 +24,7 @@ time, mark, audio, video {
     outline:0;
     font-size:100%;
     vertical-align:baseline;
-    background:transparent;
+    background:#dfe6e9;
 }
 
 body {
@@ -113,7 +113,7 @@ a {
 }
 
 body{
-	background-color: #ccc;
+	background-color:#dfe6e9;
 }
 
 header nav{
