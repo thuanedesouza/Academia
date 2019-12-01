@@ -1,4 +1,14 @@
 <?php
+// php select option value from database
+$hostname = "localhost";
+$username = "root";
+$password = "";
+$databaseName = "loginsystem";
+// connect to mysql database
+$connect = mysqli_connect($hostname, $username, $password, $databaseName);
+// mysql select query
+
+
 $con=mysqli_connect("localhost","root","","loginsystem");
 if(isset($_POST['login_submit'])){
 	$username=$_POST['username'];
