@@ -13,6 +13,7 @@ $query = "SELECT * FROM `Trainer`";
 $result1 = mysqli_query($connect, $query);
 ?>
 <html>
+
   <head>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
   </head>
@@ -20,21 +21,21 @@ $result1 = mysqli_query($connect, $query);
       
    
        
- <div class="jumbotron" style="border-radius:0;background:url('images/3.jpg');background-size:cover;height:400px;"></div>
+ <div class="jumbotron" style="border-radius:0;background:url('images/3.jpg');background-size:cover;height:400px;background-color:#636e72;color:#f5f6fa;"></div>
    <div class="container-fluid">
     <div class="row">
         <div class="col-md-3">
             <div class="list-group">
-                <a href="" class="list-group-item active"
+                <a href="" class="list-group-item active"  style="background-color:#636e72;color:#f5f6fa;"
                    >Novos Membros</a>
-                <a href="member_details.php" class="list-group-item">Membros - detalhes</a>
-                <a href="package.php" class="list-group-item">Pacotes - detalhes</a>
-                <a href="payment.php" class="list-group-item">Pagamentos</a>
+                <a href="member_details.php" class="list-group-item"style="background-color:#636e72;color:#f5f6fa;">Membros - detalhes</a>
+                <a href="package.php" class="list-group-item"style="background-color:#636e72;color:#f5f6fa;">Pacotes - detalhes</a>
+                <a href="payment.php" class="list-group-item"style="background-color:#636e72;color:#f5f6fa;">Pagamentos</a>
             </div>
             <hr>
             <div class="list-group">
-<a href="trainer.php" class="list-group-item active">Treinadores</a>
-<a href="avaliacao.php" class="list-group-item active">Avaliações</a>
+<a href="trainer.php" class="list-group-item active"style="background-color:#636e72;color:#f5f6fa;">Treinadores</a>
+<a href="avaliacao.php" class="list-group-item active"style="background-color:#636e72;color:#f5f6fa;">Avaliações</a>
          
             </div>      
             
@@ -42,7 +43,7 @@ $result1 = mysqli_query($connect, $query);
             <div class="col-md-8">
             <div class="card">
                 
-     <div class="card-body" style="background-color:#3498DB;color:FFFFFF;">
+     <div class="card-body" style="background-color:#636e72;color:#f5f6fa;">
                 <h3>Registro de novos membros</h3>
                 </div> 
                 <div class="card-body"></div>
@@ -67,7 +68,7 @@ $result1 = mysqli_query($connect, $query);
         </select>
         <br>
                                         
-  <input type="submit" class="btn btn-primary" name="pat_submit" value="Register">                  <a href="func.php" class="btn btn-light"></a>
+  <input type="submit" class="btn btn-primary" name="pat_submit" style="background-color:#636e72;color:#f5f6fa;"value="Registrar">                  <a href="func.php" class="btn btn-light"></a>
                     
                     
                 </form>
@@ -92,7 +93,7 @@ $result1 = mysqli_query($connect, $query);
                               
                                						
 				                </form>
-				              <a href="index.php" class="btn btn-light" style="background-color:#3498DB;color:FFFFFF">Logout</a>';
+				              <a href="index.php" class="btn btn-light" style="background-color:#636e72;color:#f5f6fa;">Logout</a>';
 							
 						}
 				   
