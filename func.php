@@ -139,7 +139,29 @@ function get_payment(){
 
     }
 }
+function get_avaliacao_details(){
+    global $con;
+    $query="select * from  Avaliacao";
+    $result=mysqli_query($con,$query);
+    while ($row=mysqli_fetch_array($result)){
+         $costumername=$row ['Package_name'];
+    $Avaliado_id=$row['Avaliado_id'];
+    $QtdeAvaliacoes=$row['QtdeAvaliacoes'];
+    $DataUltima=$row['DataUltima'];
+    $IndiceIMC=$row['IMC'];
+    $porcentagem=$row['PorctgGordura'];
 
+    
+
+      echo "<tr>
+          <td>$costumername</td>
+          <td> $Avaliado_id</td>
+            <td>$QtdeAvaliacoes</td>
+            <td>$DataUltima</td>
+          <td>$IndiceIMC</td>
+          <td>$porcentagem</td>
+        </tr>";
+    }
 
 ?>
 

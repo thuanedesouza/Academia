@@ -133,6 +133,49 @@ INSERT INTO `Trainer` (`Trainer_id`, `Name`, `phone`) VALUES
 (103, 'wasim', 123564789),
 (104, 'Sameer', 12536987);
 
+
+- --------------------------------------------------------
+
+--
+-- Table structure for table `Package`
+--
+
+CREATE TABLE `Avaliacao` (
+  `Avaliado_id` varchar(40) NOT NULL,
+  `QtdeAvaliacoes` varchar(40) NOT NULL,
+  `DataUltima` int(20) NOT NULL,
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `Package`
+--
+
+INSERT INTO `Avaliacao` (`Avaliado_id`, `QtdeAvaliacoes`, `DataUltima`) VALUES
+('201', '2', 2/11/2019),
+('202', '1', 19/10/2019),
+('203', '1', 3/7/2019);
+
+-- --------------------------------------------------------
+- --------------------------------------------------------
+
+--
+-- Table structure for table `Package`
+--
+
+CREATE TABLE `AvaliacaoDetalhes` (
+  `Avaliado_id` varchar(40) NOT NULL,
+  `IMC` varchar(6) NOT NULL,
+  `PortgGordura`varchar(6) NOT NULL,
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `Package`
+--
+
+INSERT INTO `Avaliacao` (`Avaliado_id`, `QtdeAvaliacoes`, `DataUltima`) VALUES
+('201', '5', 20%),
+('202', '6', 40%),
+('203', '4', 37%);
 --
 -- Indexes for dumped tables
 --
