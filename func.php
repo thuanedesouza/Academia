@@ -58,6 +58,23 @@ if(isset($_POST['pat_submit']))
               echo "<script>alert('Payment sucessfull.')</script>";
                 echo "<script>window.open('admin-panel.php','_self')</script>";
             }
+            if(isset($_POST['avaliacao_submit']))
+                {
+                $Avaliado_id=$row['Avaliado_id'];
+                $costumername=$row ['Package_name'];
+                $QtdeAvaliacoes=$row['QtdeAvaliacoes'];
+                $DataUltima=$row['DataUltima'];
+                $IndiceIMC=$row['IMC'];
+                $porcentagem=$row['PorctgGordura'];
+
+                $query="insert into Avaliacao(Avaliado_id,Package_name,QtdeAvaliacoes,IMC,PorctgGordura)values
+                ('$Avaliado_id','$costumername','$QtdeAvaliacoes','$DataUltima','$IndiceIMC', '$porcentagem')";
+                $result=mysqli_query($con,$query);
+                if($result)
+                {
+                echo "<script>alert('Avaliaçao adicionada.')</script>";
+                    echo "<script>window.open('admin-panel.php','_self')</script>";
+                }   
             } 
  function get_client_details(){
     global $con;
@@ -167,6 +184,7 @@ function get_avaliacao_details(){
         </tr>";
     }
 }
+
 ?>
 
 

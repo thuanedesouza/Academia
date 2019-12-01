@@ -24,32 +24,6 @@ SET time_zone = "+00:00";
 
 -- --------------------------------------------------------
 
---
--- Table structure for table `doctorapp`
---
-
-CREATE TABLE `doctorapp` (
-  `fname` varchar(40) NOT NULL,
-  `lname` varchar(40) NOT NULL,
-  `email` varchar(40) NOT NULL,
-  `contact` varchar(40) NOT NULL,
-  `docapp` varchar(60) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
-
---
--- Dumping data for table `doctorapp`
---
-
-INSERT INTO `doctorapp` (`fname`, `lname`, `email`, `contact`, `docapp`) VALUES
-('Raj', 'kumar', 'kumar@gmail.com', '201', '101'),
-('saurabh', 'kumar', 'kumar121@gmail.com', '202', '102'),
-('surya', 'raj', 'raj1242gmail.com', '203', '101'),
-('Raman', 'kumar', 'raman@gmail.com', '204', '103'),
-('Aadarsh', 'thakur', 'thakur@gmail.com', '205', '103'),
-('Rahul', 'kumar', 'rahul@gmail.com', '206', '102'),
-('Sanjeev', 'Verma', 'verma12@gmail.com', '207', '103');
-
--- --------------------------------------------------------
 
 --
 -- Table structure for table `logintb`
