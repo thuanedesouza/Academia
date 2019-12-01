@@ -143,7 +143,7 @@ INSERT INTO `Trainer` (`Trainer_id`, `Name`, `phone`) VALUES
 CREATE TABLE `Avaliacao` (
   `Avaliado_id` varchar(40) NOT NULL,
   `QtdeAvaliacoes` varchar(40) NOT NULL,
-  `DataUltima` int(20) NOT NULL,
+  `DataUltima` varchar(40) NOT NULL,
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
@@ -165,7 +165,7 @@ INSERT INTO `Avaliacao` (`Avaliado_id`, `QtdeAvaliacoes`, `DataUltima`) VALUES
 CREATE TABLE `AvaliacaoDetalhes` (
   `Avaliado_id` varchar(40) NOT NULL,
   `IMC` varchar(6) NOT NULL,
-  `PortgGordura`varchar(6) NOT NULL,
+  `PorctgGordura`varchar(6) NOT NULL,
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --

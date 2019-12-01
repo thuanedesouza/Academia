@@ -144,8 +144,9 @@ function get_avaliacao_details(){
     $query="select * from  Avaliacao";
     $result=mysqli_query($con,$query);
     while ($row=mysqli_fetch_array($result)){
-         $costumername=$row ['Package_name'];
+       
     $Avaliado_id=$row['Avaliado_id'];
+    $costumername=$row ['Package_name'];
     $QtdeAvaliacoes=$row['QtdeAvaliacoes'];
     $DataUltima=$row['DataUltima'];
     $IndiceIMC=$row['IMC'];
@@ -162,7 +163,7 @@ function get_avaliacao_details(){
           <td>$porcentagem</td>
         </tr>";
     }
-
+}
 ?>
 
 

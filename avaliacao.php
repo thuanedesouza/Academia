@@ -45,12 +45,18 @@
                 </div> 
                 <div class="card-body"></div>
                 <form class="form-group" action="func.php" method="post">
-                <label>Treinador ID</label>
-<input type="text" name="Trainer_id" class="form-control"><br>
- <label>Nome</label>
-                    <input type="text" name="Name" class="form-control"><br>
-                    <label>Contato</label>
-<input type="text" name="phone" class="form-control"><br> 
+                <label>Avaliado - ID</label>
+<input type="text" name="Avaliado_id" class="form-control"><br>
+ <label>Numero da Avaliação</label>
+                    <input type="text" name="QtdeAvaliacoes
+" class="form-control"><br>
+                    <label>Data</label>
+<input type="text" name="DataUltima" class="form-control"><br> 
+<label>Indice IMC</label>
+<input type="text" name="IMC" class="form-control"><br> 
+<label>Porcentagem de Gordura</label>
+<input type="text" name="PorctgGordura" class="form-control"><br> 
+
 <input type="submit" class="btn btn-primary" name="tra_submit" value="Registrar">
      </div>
     </div>
