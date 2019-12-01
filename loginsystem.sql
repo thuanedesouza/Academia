@@ -125,9 +125,9 @@ CREATE TABLE `Avaliacao` (
 --
 
 INSERT INTO `Avaliacao` (`Avaliado_id`, `QtdeAvaliacoes`, `DataUltima`) VALUES
-('201', '2', 2/11/2019),
-('202', '1', 19/10/2019),
-('203', '1', 3/7/2019);
+('201', '2', '2/11/2019'),
+('202', '1', '19/10/2019'),
+('203', '1', '3/7/2019');
 
 -- --------------------------------------------------------
 
@@ -145,9 +145,9 @@ CREATE TABLE `AvaliacaoDetalhes` (
 --
 
 INSERT INTO `Avaliacao` (`Avaliado_id`, `QtdeAvaliacoes`, `DataUltima`) VALUES
-('201', '5', 20%),
-('202', '6', 40%),
-('203', '4', 37%);
+('201', '5', '20%'),
+('202', '6', '40%'),
+('203', '4', '37%');
 --
 -- Indexes for dumped tables
 --
