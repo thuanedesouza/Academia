@@ -11,7 +11,7 @@
   <style type="text/css">
     #inputbtn:hover{cursor:pointer;}
   </style>
-  <body style="background:url('images/2.jpg'); background-size: cover;">
+  <body style="background:url('images/0.jpg'); background-size: cover;">
     <div class="container-fluid" style="margin-top:60px;margin-bottom:60px;color:#34495E;">
       <div class="row">
         <div class="col-md-1"></div>
