@@ -21,7 +21,7 @@ $result1 = mysqli_query($connect, $query);
       
    
        
- <div class="jumbotron" style="border-radius:0;background:url('images/3.jpg');background-size:cover;height:400px;background-color:#636e72;color:#f5f6fa;"></div>
+ <div class="jumbotron" style="border-radius:0;background:url('images/cardback.jpg');background-size:cover;height:400px;background-color:#636e72;color:#f5f6fa;"></div>
    <div class="container-fluid">
     <div class="row">
         <div class="col-md-3">
